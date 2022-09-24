@@ -42,7 +42,7 @@ const forms = () => {
                 .finally(() => {
                     clearInputs();
                     setTimeout(() => {
-                        statusMessage.remove()
+                        statusMessage.remove();
                     }, 5000);
                 });
         });
